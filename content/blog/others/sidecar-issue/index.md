@@ -32,7 +32,7 @@ Sidecarが怪しい
 
 ---
 
-![sidecar](../Mac/sidecar.png)
+![sidecar](sidecar.png)
 
 1. Sidecarが悪さをしているっぽい<br>SidecarはiPadをMacのサブディスプレイにできる機能
 
