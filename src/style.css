@@ -255,7 +255,7 @@ a:focus {
 }
 
 .main-heading {
-  font-size: var(--fontSize-7);
+  font-size: var(--fontSize-2);
   margin: 0;
 }
 
@@ -317,6 +317,32 @@ a:focus {
 
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
+}
+
+/* gatsby-remark-prism.js */
+.gatsby-highlight-code-line {
+  background-color: #444444;
+  display: block;
+  margin-right: -1em;
+  margin-left: -16px;
+  padding-right: 1em;
+  padding-left: 10px;
+  border-left: 6px solid #f99
+}
+/* gatsby-remark-code-titles */
+.gatsby-code-title {
+  margin-bottom: -0.6rem;
+  padding: 0.5em 1em;
+
+  background-color: rgb(62, 130, 202);
+  color: white;
+  z-index: 0;
+
+  font-size:0.8em;
+  display: table;
+  
+  border-top-left-radius: 0.3em;
+  border-top-right-radius: 0.3em;
 }
 
 /* Media queries */
