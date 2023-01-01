@@ -59,6 +59,7 @@ module.exports = {
               rel: `noopener`,
             },
           },
+          `gatsby-plugin-twitter`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
